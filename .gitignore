@@ -98,4 +98,7 @@ buildNumber.properties
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/java,macos,visualstudiocode,maven
+# End of https://www.toptal.com/developers/gitignore/api/java,macos,visualstudiocode,maven.vscode/
+.mvnw/
+.mvnw.cmd/
+.HELP.md
