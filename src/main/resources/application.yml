@@ -1,0 +1,25 @@
+server:
+    port: 9091
+spring:
+    application:
+        name: stock
+    datasource:
+        url: jdbc:mariadb://localhost:3306/stockdb
+        username: Mariadb
+        password: 33Base!
+        driver-class-name: org.mariadb.jdbc.Driver
+    jpa: 
+        show-sql: true
+        hibernate: 
+            ddl-auto: create-drop
+        properties:
+            hibernate.dialect: org.hibernate.dialect.MariaDBDialect 
+mqtt:
+    broker:
+        url: tcp://localhost:1883 # sécurisé(par password), sinon 8883
+    client:
+        id: stock-app
+    username: user-app
+    password: josepossedeunzoo    
+
+
