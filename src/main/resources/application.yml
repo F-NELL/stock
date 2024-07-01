@@ -5,8 +5,8 @@ spring:
         name: stock
     datasource:
         url: jdbc:mariadb://localhost:3306/stockdb
-        username: Mariadb
-        password: 33Base!
+        username: xxxxx
+        password: xxxxx
         driver-class-name: org.mariadb.jdbc.Driver
     jpa: 
         show-sql: true
@@ -19,7 +19,7 @@ mqtt:
         url: tcp://localhost:1883 # sécurisé(par password), sinon 8883
     client:
         id: stock-app
-    username: user-app
-    password: josepossedeunzoo    
+    username: xxxxx
+    password: xxxxx    
 
 
